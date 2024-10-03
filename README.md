@@ -1,4 +1,5 @@
-```markdown
+---
+
 # GraphQL API with Express
 
 This is a GraphQL API built with Express that allows you to manage products, categories, users, and orders in a simple e-commerce application. It uses a JSON file as a data store, making it easy to set up and run without a database.
@@ -115,4 +116,24 @@ mutation {
   }
 }
 ```
+
+### Place an Order
+
+```graphql
+mutation {
+  placeOrder(userId: "your-user-id", productIds: ["product-id-1", "product-id-2"]) {
+    id
+    user {
+      id
+      name
+    }
+    products {
+      id
+      name
+    }
+    totalAmount
+  }
+}
 ```
+
+---
