@@ -1,0 +1,58 @@
+{
+    "categories": [
+        {
+            "id": "1",
+            "name": "Electronics",
+            "products": []
+        },
+        {
+            "id": "2",
+            "name": "Books",
+            "products": []
+        }
+    ],
+    "products": [
+        {
+            "id": "1",
+            "name": "Laptop",
+            "description": "A high-end laptop",
+            "price": 999.99,
+            "category": {
+                "id": "1"
+            }
+        },
+        {
+            "id": "2",
+            "name": "Headphones",
+            "description": "Noise-canceling headphones",
+            "price": 199.99,
+            "category": {
+                "id": "1"
+            }
+        },
+        {
+            "id": "3",
+            "name": "JavaScript Guide",
+            "description": "A comprehensive guide to JavaScript",
+            "price": 29.99,
+            "category": {
+                "id": "2"
+            }
+        }
+    ],
+    "users": [
+        {
+            "id": "1",
+            "name": "Alice",
+            "email": "alice@example.com",
+            "orders": []
+        },
+        {
+            "id": "2",
+            "name": "Bob",
+            "email": "bob@example.com",
+            "orders": []
+        }
+    ],
+    "orders": []
+}
